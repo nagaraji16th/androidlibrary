@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1050795129395",
+    "firebase_url": "https://trupikauth.firebaseio.com",
+    "project_id": "trupikauth",
+    "storage_bucket": "trupikauth.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1050795129395:android:6e1cd46fb39c0d10",
+        "android_client_info": {
+          "package_name": "com.trupik.trupikauth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050795129395-kf9somm4qeneumf56fmdg69lgtej4k2h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trupik.trupikauth",
+            "certificate_hash": "ad0e7cb590a14dc65d9800cc9f98e293b0958229"
+          }
+        },
+        {
+          "client_id": "1050795129395-mffe7ammc69u0d2bh7hic36ceedsbdsm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm3lSNZHLuCNYxV3yJ1ccjvV_U6N-hGK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050795129395-mffe7ammc69u0d2bh7hic36ceedsbdsm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1050795129395-8lj0r0hsachhkv3tb4o3mku6doemri19.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.trupik.auth"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
