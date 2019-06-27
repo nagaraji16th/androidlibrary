@@ -59,7 +59,7 @@ lateinit var providers : List<AuthUI.IdpConfig>
             }
         }
     }
-    private fun showSignINOptions(){
+    public fun showSignINOptions(){
        startActivityForResult(AuthUI.getInstance().createSignInIntentBuilder()
 
            .setAvailableProviders(providers)
