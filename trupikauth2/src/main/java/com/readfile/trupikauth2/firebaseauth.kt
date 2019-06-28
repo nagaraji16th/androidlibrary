@@ -35,8 +35,7 @@ class firebaseauth : AppCompatActivity() {
                     showSignINOptions()
                 }
                 .addOnFailureListener {
-                        e->
-                    Toast.makeText(this@firebaseauth,e.message, Toast.LENGTH_LONG).show()
+                        e->Toast.makeText(this@firebaseauth,e.message,Toast.LENGTH_LONG).show()
                 }
         }
     }
@@ -44,14 +43,14 @@ class firebaseauth : AppCompatActivity() {
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
         if(requestCode==MY_REQUEST_CODE){
-            val response = IdpResponse.fromResultIntent(data)
-            if(resultCode== Activity.RESULT_OK){
+            val response =IdpResponse.fromResultIntent(data)
+            if(resultCode==Activity.RESULT_OK){
                 val user = FirebaseAuth.getInstance().currentUser
-                Toast.makeText(this,""+user!!.email, Toast.LENGTH_LONG).show()
+                Toast.makeText(this,""+user!!.email,Toast.LENGTH_LONG).show()
                 btn_sign_out.isEnabled=true
             }
             else{
-                Toast.makeText(this,""+response!!.error!!.message, Toast.LENGTH_LONG).show()
+                Toast.makeText(this,""+response!!.error!!.message,Toast.LENGTH_LONG).show()
 
             }
         }
