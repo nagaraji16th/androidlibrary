@@ -7,7 +7,9 @@ import android.support.v7.app.AppCompatActivity
 import android.widget.Toast
 import com.firebase.ui.auth.AuthUI
 import com.firebase.ui.auth.IdpResponse
+import com.google.firebase.FirebaseApp
 import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.iid.FirebaseInstanceId
 import kotlinx.android.synthetic.main.firebaseauth.*
 import java.util.*
 
@@ -19,6 +21,8 @@ class firebaseauth : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.firebaseauth)
+                FirebaseApp.initializeApp(this);
+        FirebaseInstanceId.getInstance().getToken();
 
         //init
         providers = Arrays.asList<AuthUI.IdpConfig>(

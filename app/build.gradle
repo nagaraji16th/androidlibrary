@@ -36,4 +36,3 @@ dependencies {
     implementation project(path: ':trupikauth2')
 
 }
-apply plugin: 'com.google.gms.google-services'
