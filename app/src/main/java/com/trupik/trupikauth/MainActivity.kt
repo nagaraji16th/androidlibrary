@@ -1,6 +1,7 @@
 package com.trupik.trupikauth
 
 import android.app.Activity
+import android.content.Context
 import android.content.Intent
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
@@ -11,6 +12,7 @@ import com.firebase.ui.auth.AuthUI
 import com.firebase.ui.auth.IdpResponse
 import com.google.android.gms.common.SignInButton
 import com.google.android.gms.common.api.GoogleApiClient
+import com.google.firebase.FirebaseApp
 import com.google.firebase.auth.FirebaseAuth
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
@@ -27,7 +29,7 @@ lateinit var providers : List<AuthUI.IdpConfig>
         //init
         providers = Arrays.asList<AuthUI.IdpConfig>(
             AuthUI.IdpConfig.EmailBuilder().build(),
-//            AuthUI.IdpConfig.FacebookBuilder().build(),
+            AuthUI.IdpConfig.FacebookBuilder().build(),
             AuthUI.IdpConfig.GoogleBuilder().build(),
             AuthUI.IdpConfig.PhoneBuilder().build()
         )

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">trupikauth</string>
+    <string name="facebook_application_id">3003664006340761</string>
+    <string name="fb_login_protocol_scheme">fb3003664006340761</string>
+    <!--<string name="facebook_application_id" translatable="false">3003664006340761</string>-->
+    <!--<string name="facebook_login_protocol_scheme" translatable="false">088706beadb132575e2b0dad0f7b5c6b</string>-->
+
 </resources>

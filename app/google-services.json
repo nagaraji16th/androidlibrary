@@ -8,6 +8,58 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:1050795129395:android:6addf1fd05de0e86",
+        "android_client_info": {
+          "package_name": "com.readfile.firebaselibtest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1050795129395-ospl0hla5e7468fufp7aquvccqluo3c6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.readfile.firebaselibtest",
+            "certificate_hash": "187b317f26ad5214f3e30357c19f0516dbc6a1a4"
+          }
+        },
+        {
+          "client_id": "1050795129395-va1hinasi3hqsv40b0kmop51bdq8ghdd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.readfile.firebaselibtest",
+            "certificate_hash": "ad0e7cb590a14dc65d9800cc9f98e293b0958229"
+          }
+        },
+        {
+          "client_id": "1050795129395-mffe7ammc69u0d2bh7hic36ceedsbdsm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm3lSNZHLuCNYxV3yJ1ccjvV_U6N-hGK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1050795129395-mffe7ammc69u0d2bh7hic36ceedsbdsm.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "1050795129395-94t8qculal6u7akovu39rskpo5tle0k5.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.trupik.trupik"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:1050795129395:android:6e1cd46fb39c0d10",
         "android_client_info": {
           "package_name": "com.trupik.trupikauth"
@@ -40,10 +92,10 @@
               "client_type": 3
             },
             {
-              "client_id": "1050795129395-8lj0r0hsachhkv3tb4o3mku6doemri19.apps.googleusercontent.com",
+              "client_id": "1050795129395-94t8qculal6u7akovu39rskpo5tle0k5.apps.googleusercontent.com",
               "client_type": 2,
               "ios_info": {
-                "bundle_id": "com.trupik.auth"
+                "bundle_id": "com.trupik.trupik"
               }
             }
           ]
